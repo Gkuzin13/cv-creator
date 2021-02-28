@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:visited {
+    color: black;
+}
+
+body, html {
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+    line-height: 1.5rem;
+    font-size: 16px;
+}
+
+html {
+  overflow-y: overlay;
+}
+
+.svg-gradient {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -9999;
+}
+
+.forms-ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+button {
+  display: inline-block;
+  border: none;
+  padding: 1rem 2rem;
+  text-decoration: none;
+  background: rgb(68, 91, 223);
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 0.15s linear;
+  -webkit-transition: background 0.15s linear;
+  -moz-transition: background 0.15s linear;
+  -ms-transition: background 0.15s linear;
+  -o-transition: background 0.15s linear;
+}
+
+button:disabled,
+button[disabled],
+button:disabled:hover {
+  background: rgb(77, 101, 240);
+  color: #f1f1f1;
+  cursor: auto;
+}
+
+.fa-pencil-square {
+  padding: 0 0.5em;
+}
+
+textarea {
+  line-height: 1.2rem;
+}

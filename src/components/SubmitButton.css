@@ -1,0 +1,28 @@
+.submit-btn-ctn {
+    padding: 1em;
+}
+
+.submit-btn {
+    background: rgb(77, 101, 240);
+    padding: 0.75em 1em;
+}
+
+.submit-btn:hover {
+    background: rgb(85, 108, 240);
+}
+
+.btn-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.btn-content p {
+    padding-right: 0.5em;
+}
+
+.fa-check-square {
+    padding: 0;
+    font-size: 1.8rem;
+}

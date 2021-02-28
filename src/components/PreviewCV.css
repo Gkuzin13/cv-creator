@@ -1,0 +1,100 @@
+.preview-ctn {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2rem;
+  width: 60vw;
+  margin: 0 auto;
+}
+  
+.general-info-preview {
+    position: relative;
+    font-size: 1.2rem;
+    background-color: rgba(30, 35, 80, 0.205);
+    color: rgb(51, 51, 51);
+    line-height: 2.5rem;
+    width: 100%;
+}
+
+.edit-cv-ctn {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(68, 91, 223);
+    padding: 0.25rem;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.15s linear;
+    -webkit-transition: opacity 0.15s linear;
+    -moz-transition: opacity 0.15s linear;
+    -ms-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+}
+
+.edit-cv-ctn:hover {
+    opacity: 1;
+} 
+
+.fa-pen-square {
+    font-size: 1.75rem;
+    color: rgb(255, 255, 255);
+    margin: 0.25rem;
+}
+
+.profile-info-ctn {
+    padding: 4rem 2rem 1rem 2rem;
+}
+  
+.info-preview-ctn {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    padding: 2rem 2rem 0 2rem;
+    color: rgb(49, 49, 49);
+    width: 100%;
+}
+
+.info-ctn {
+    display: flex;
+    color: #383838;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.info-desc {
+   width: 100%;
+   line-height: 1.8rem;
+}
+
+ul {
+    text-align: left;
+    list-style-position: inside;
+}
+
+.date-info-ctn {
+    width: 20rem;
+    color:rgb(75, 75, 75);
+}
+
+.preview-border {
+    border: 0.5px rgba(0, 0, 0, 0.199) solid;
+    width: 100%;
+    margin: 0.5rem 0 1rem 0;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .preview-ctn {
+        width: 100vw;
+    }
+}
+
+
+
+
+  
+
